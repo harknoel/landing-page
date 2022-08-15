@@ -89,15 +89,13 @@ ul {
 .container {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 32px;
 }
 
 .box-container {
     display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 180px;
     text-align: center;
     gap: 8px;
@@ -108,6 +106,11 @@ ul {
     width: 150px;
     height: 150px;
     border-radius: 15px;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
 }
 
 .box-container p {
