@@ -17,7 +17,7 @@ header {
 }
 
 .logo {
-    color: #f9faf8;
+    color: #F9FAF8;
     font-size: 24px;
     font-weight: 800;
 }
@@ -44,6 +44,7 @@ ul {
 .text {
     display: flex;
     flex-flow: column wrap;
+    gap: 12px;
 }
 
 .title {
@@ -74,15 +75,103 @@ ul {
 }
 
 .projects {
-    padding: 32px;
+    padding: 50px 0px 150px 0px;
 }
 
 .info {
     text-align: center;
     font-size: 32px;
-    margin-bottom: 32px;
+    font-weight: 800;
+    margin-bottom: 50px;
+    color: #0F3D3E;
 }
 
 .container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.box-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    text-align: center;
+    gap: 8px;
+}
+
+.box {
+    border: 5px solid #00BFA6;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.box-container p {
+    font-size: 18px;
+    color: #565656;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 500px;
+}
+
+.quote p:first-child {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote p:last-child {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.contact {
+    padding: 100px 400px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00BFA6;
+    padding: 50px 100px;
+    border-radius: 6px;
+}
+
+.content-left p:first-child {
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.content-left p:last-child {
+    color: #E5E7EB;
+}
+
+.content-right button {
+    border: 2px solid #E5E7EB;
+    background-color: #00BFA6;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding: 6px 26px;
+    border-radius: 3px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    background-color: #0F3D3E;
+    color: #E5E7EB;
 }
